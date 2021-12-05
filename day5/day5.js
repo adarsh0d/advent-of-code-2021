@@ -139,6 +139,6 @@ function noOfAllLines(input) {
 }
 fs.readFile('input.txt', 'utf-8', (err, s) => {
     const input = s.split('\n');
-    console.log(noOfStraightLines(input));
-    console.log(noOfAllLines(input));
+    noOfStraightLines(input);
+    noOfAllLines(input);
 })
